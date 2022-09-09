@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+   
+#app {
+    width: 100%;
+}
+.budget-tracker {
+    min-width: 750px;
+    margin:0 auto;
+    border-collapse: collapse;
+}
+.budget-tracker th {
+    border-bottom: 4px solid #009578;
+    text-align: left;
+    padding: 10px 2px;
+}
+.budget-tracker td {
+    padding: 5px;
+}
+.input,
+.delete-entry {
+    height: 30px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.input {
+    border:1px solid #dddddd;
+    outline: none;
+    border-radius:5px ;
+
+}
+.input:focus {
+    border-color: #bbbbbb;
+}
+
+.delete-entry {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50px;
+    width: 30px;
+    border: none;
+    background: none;
+}
+.delete-entry:hover {
+    background-color: rgb(238, 196, 196);
+}
+.controls,
+.summary {
+    text-align: right;
+}
